@@ -9,4 +9,18 @@ for (let i = 0; i < tea.length; i++) {
   }
   selectedTeas.push(tea[i]);
 }
-console.log(selectedTeas);
+// console.log(selectedTeas);
+
+//Write a for loop that loops through the array ["London", "New York", "Paris", "Berlin"] and skips "Paris". Store the other cities in a new array named visitedCities.
+
+let cities = ["London", "New York", "Paris", "Berlin"];
+let visitedCities = [];
+
+for (let j = 0; j < cities.length; j++) {
+  if (cities[j] === "Paris") {
+    continue;
+  }
+  visitedCities.push(cities[j]);
+}
+console.log(visitedCities);
+
