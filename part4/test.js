@@ -1,4 +1,3 @@
-//This is a test file to practice git
 let total = 0;
 let k = 1;
 do {
@@ -7,4 +6,3 @@ do {
 } while (k <= 5);
 
 console.log(total);
-
